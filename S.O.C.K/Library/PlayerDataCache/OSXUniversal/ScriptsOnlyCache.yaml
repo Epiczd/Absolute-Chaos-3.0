@@ -73,19 +73,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10362}
     - Class: 114
-      Script: {instanceID: 10748}
+      Script: {instanceID: 10750}
     - Class: 114
-      Script: {instanceID: 10820}
+      Script: {instanceID: 10822}
     - Class: 114
-      Script: {instanceID: 10950}
+      Script: {instanceID: 10952}
     - Class: 114
-      Script: {instanceID: 10978}
+      Script: {instanceID: 10980}
     - Class: 114
-      Script: {instanceID: 11176}
+      Script: {instanceID: 11178}
     - Class: 114
-      Script: {instanceID: 11240}
+      Script: {instanceID: 11242}
     - Class: 114
-      Script: {instanceID: 11614}
+      Script: {instanceID: 11616}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -121,6 +121,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
@@ -136,6 +138,10 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9722}
     - Class: 114
+      Script: {instanceID: 9762}
+    - Class: 114
+      Script: {instanceID: 9902}
+    - Class: 114
       Script: {instanceID: 9944}
     - Class: 114
       Script: {instanceID: 10362}
@@ -144,14 +150,18 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10614}
     - Class: 114
-      Script: {instanceID: 10710}
+      Script: {instanceID: 10712}
     - Class: 114
-      Script: {instanceID: 11240}
+      Script: {instanceID: 10750}
     - Class: 114
-      Script: {instanceID: 11310}
+      Script: {instanceID: 11242}
     - Class: 114
-      Script: {instanceID: 11614}
+      Script: {instanceID: 11312}
+    - Class: 114
+      Script: {instanceID: 11616}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -203,15 +213,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10362}
     - Class: 114
-      Script: {instanceID: 10748}
+      Script: {instanceID: 10750}
     - Class: 114
-      Script: {instanceID: 10770}
+      Script: {instanceID: 10772}
     - Class: 114
-      Script: {instanceID: 11240}
+      Script: {instanceID: 11242}
     - Class: 114
-      Script: {instanceID: 11310}
+      Script: {instanceID: 11312}
     - Class: 114
-      Script: {instanceID: 11614}
+      Script: {instanceID: 11616}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -266,25 +276,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10386}
     - Class: 114
-      Script: {instanceID: 10748}
+      Script: {instanceID: 10696}
     - Class: 114
-      Script: {instanceID: 10796}
+      Script: {instanceID: 10750}
     - Class: 114
-      Script: {instanceID: 10978}
+      Script: {instanceID: 10798}
     - Class: 114
-      Script: {instanceID: 10992}
+      Script: {instanceID: 10980}
     - Class: 114
-      Script: {instanceID: 11176}
+      Script: {instanceID: 10994}
     - Class: 114
-      Script: {instanceID: 11240}
+      Script: {instanceID: 11178}
     - Class: 114
-      Script: {instanceID: 11310}
+      Script: {instanceID: 11242}
     - Class: 114
-      Script: {instanceID: 11402}
+      Script: {instanceID: 11312}
     - Class: 114
-      Script: {instanceID: 11614}
+      Script: {instanceID: 11404}
     - Class: 114
-      Script: {instanceID: 17170}
+      Script: {instanceID: 11616}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -494,7 +504,7 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
-      Hash: a8247955a0bc1c929bc61234ff0f3c41
+      Hash: 11072014978d7d37c8662e1922c49dd0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MainMenu
@@ -707,6 +717,12 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
+    className: QuitToDesktop
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
     className: PlayerMovement
   - hash:
       serializedVersion: 2
@@ -734,7 +750,7 @@ ScriptsOnlyBuild:
     className: ServerSettings
   - hash:
       serializedVersion: 2
-      Hash: 6b1f773927f8d97487d29d8af75e1d80
+      Hash: e38ce02c3f0ec58d072ba49adb0b926b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerNameInput
@@ -1014,16 +1030,10 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: QuitToDesktop
   platform: 2
   scenePathNames:
   - Assets/Scenes/Title.unity
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/Settings.unity
   - Assets/Scenes/Login.unity
-  playerPath: /Users/21millisorz/Documents/GitHub/Absolute-Chaos-2.0/S.O.C.K/Builds/SOCK.app
+  playerPath: /Users/21heiligmanns/Desktop/ADP 1/AbsoluteChaos/Absolute-Chaos-3.0/S.O.C.K/Builds/Mac/S.O.C.K.app

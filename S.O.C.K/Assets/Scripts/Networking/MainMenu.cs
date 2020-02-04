@@ -11,6 +11,8 @@ public class MainMenu : MonoBehaviourPunCallbacks
     [SerializeField] private GameObject findOpponentPanel = null;
     [SerializeField] private GameObject waitingStatusPanel = null;
     [SerializeField] private TextMeshProUGUI waitingStatusText = null;
+    public GameObject UserInputFeild;
+    public GameObject JoinButton;
 
     private bool isConnecting = false;
 
@@ -25,7 +27,8 @@ public class MainMenu : MonoBehaviourPunCallbacks
     public void FindOpponent()
     {
         isConnecting = true;
-
+        JoinButton.SetActive(false);
+        UserInputFeild.SetActive(false);
         findOpponentPanel.SetActive(false);
         waitingStatusPanel.SetActive(true);
 
@@ -102,12 +105,9 @@ public class MainMenu : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
-        
+        JoinButton.SetActive(true);
+        UserInputFeild.SetActive(true);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  
 }

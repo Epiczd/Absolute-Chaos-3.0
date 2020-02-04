@@ -483,7 +483,7 @@ GameObject:
   - component: {fileID: 759966824}
   - component: {fileID: 759966823}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Back To Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -506,7 +506,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -519, y: 319}
+  m_AnchoredPosition: {x: -485.5, y: 264.3}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &759966823
@@ -1306,7 +1306,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameInputField: {fileID: 978432707}
   continueButton: {fileID: 1335203098}
-  enterCheck: {fileID: 0}
 --- !u!1 &1920429395
 GameObject:
   m_ObjectHideFlags: 0
@@ -1426,6 +1425,8 @@ MonoBehaviour:
   findOpponentPanel: {fileID: 232067651}
   waitingStatusPanel: {fileID: 2024210709}
   waitingStatusText: {fileID: 757966111}
+  UserInputFeild: {fileID: 1797944949}
+  JoinButton: {fileID: 1335203096}
 --- !u!1 &2024210709
 GameObject:
   m_ObjectHideFlags: 0
