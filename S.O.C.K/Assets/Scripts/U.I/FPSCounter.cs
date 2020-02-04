@@ -14,7 +14,7 @@ public class FPSCounter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        FPS = (TextMesh)GameObject.Find("FPS Counter").GetComponent<TextMesh>();
+        
     }
 
     // Update is called once per frame
