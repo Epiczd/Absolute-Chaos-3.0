@@ -21,11 +21,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -62,31 +57,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9726}
+      Script: {instanceID: 9722}
     - Class: 114
-      Script: {instanceID: 9766}
+      Script: {instanceID: 9762}
     - Class: 114
-      Script: {instanceID: 9906}
+      Script: {instanceID: 9902}
     - Class: 114
-      Script: {instanceID: 9948}
+      Script: {instanceID: 9944}
     - Class: 114
-      Script: {instanceID: 10108}
+      Script: {instanceID: 10104}
     - Class: 114
-      Script: {instanceID: 10368}
+      Script: {instanceID: 10364}
     - Class: 114
-      Script: {instanceID: 10756}
+      Script: {instanceID: 10752}
     - Class: 114
-      Script: {instanceID: 10828}
+      Script: {instanceID: 10824}
     - Class: 114
-      Script: {instanceID: 10960}
+      Script: {instanceID: 10956}
     - Class: 114
-      Script: {instanceID: 10988}
+      Script: {instanceID: 10984}
     - Class: 114
-      Script: {instanceID: 11186}
+      Script: {instanceID: 11182}
     - Class: 114
-      Script: {instanceID: 11250}
+      Script: {instanceID: 11246}
     - Class: 114
-      Script: {instanceID: 11624}
+      Script: {instanceID: 11620}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -141,33 +136,33 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9726}
+      Script: {instanceID: 9722}
     - Class: 114
-      Script: {instanceID: 9766}
+      Script: {instanceID: 9762}
     - Class: 114
-      Script: {instanceID: 9906}
+      Script: {instanceID: 9902}
     - Class: 114
-      Script: {instanceID: 9948}
+      Script: {instanceID: 9944}
+    - Class: 114
+      Script: {instanceID: 10360}
     - Class: 114
       Script: {instanceID: 10364}
     - Class: 114
-      Script: {instanceID: 10368}
+      Script: {instanceID: 10466}
     - Class: 114
-      Script: {instanceID: 10470}
+      Script: {instanceID: 10616}
     - Class: 114
-      Script: {instanceID: 10620}
+      Script: {instanceID: 10714}
     - Class: 114
-      Script: {instanceID: 10718}
+      Script: {instanceID: 10752}
     - Class: 114
-      Script: {instanceID: 10756}
+      Script: {instanceID: 10938}
     - Class: 114
-      Script: {instanceID: 10942}
+      Script: {instanceID: 11246}
     - Class: 114
-      Script: {instanceID: 11250}
+      Script: {instanceID: 11316}
     - Class: 114
-      Script: {instanceID: 11320}
-    - Class: 114
-      Script: {instanceID: 11624}
+      Script: {instanceID: 11620}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -208,29 +203,29 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9726}
+      Script: {instanceID: 9722}
     - Class: 114
-      Script: {instanceID: 9754}
+      Script: {instanceID: 9750}
     - Class: 114
-      Script: {instanceID: 9766}
+      Script: {instanceID: 9762}
     - Class: 114
-      Script: {instanceID: 9822}
+      Script: {instanceID: 9818}
     - Class: 114
-      Script: {instanceID: 9906}
+      Script: {instanceID: 9902}
     - Class: 114
-      Script: {instanceID: 9948}
+      Script: {instanceID: 9944}
     - Class: 114
-      Script: {instanceID: 10368}
+      Script: {instanceID: 10364}
     - Class: 114
-      Script: {instanceID: 10756}
+      Script: {instanceID: 10752}
     - Class: 114
-      Script: {instanceID: 10778}
+      Script: {instanceID: 10774}
     - Class: 114
-      Script: {instanceID: 11250}
+      Script: {instanceID: 11246}
     - Class: 114
-      Script: {instanceID: 11320}
+      Script: {instanceID: 11316}
     - Class: 114
-      Script: {instanceID: 11624}
+      Script: {instanceID: 11620}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -273,37 +268,37 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9726}
+      Script: {instanceID: 9722}
     - Class: 114
-      Script: {instanceID: 9766}
+      Script: {instanceID: 9762}
     - Class: 114
-      Script: {instanceID: 9906}
+      Script: {instanceID: 9902}
     - Class: 114
-      Script: {instanceID: 9948}
+      Script: {instanceID: 9944}
     - Class: 114
-      Script: {instanceID: 10368}
+      Script: {instanceID: 10364}
     - Class: 114
-      Script: {instanceID: 10392}
+      Script: {instanceID: 10388}
     - Class: 114
-      Script: {instanceID: 10702}
+      Script: {instanceID: 10698}
     - Class: 114
-      Script: {instanceID: 10756}
+      Script: {instanceID: 10752}
     - Class: 114
-      Script: {instanceID: 10804}
+      Script: {instanceID: 10800}
     - Class: 114
-      Script: {instanceID: 10988}
+      Script: {instanceID: 10984}
     - Class: 114
-      Script: {instanceID: 11002}
+      Script: {instanceID: 10998}
     - Class: 114
-      Script: {instanceID: 11186}
+      Script: {instanceID: 11182}
     - Class: 114
-      Script: {instanceID: 11250}
+      Script: {instanceID: 11246}
     - Class: 114
-      Script: {instanceID: 11320}
+      Script: {instanceID: 11316}
     - Class: 114
-      Script: {instanceID: 11412}
+      Script: {instanceID: 11408}
     - Class: 114
-      Script: {instanceID: 11624}
+      Script: {instanceID: 11620}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1057,4 +1052,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/Settings.unity
   - Assets/Scenes/Login.unity
-  playerPath: C:/Users/sammo/Desktop/ADP/bigboi/Absolute-Chaos-3.0/S.O.C.K/Builds/Windows/S.O.C.K.exe
+  playerPath: C:/Users/epicz/Documents/GitHub/Absolute-Chaos-3.0/S.O.C.K/Builds/Windows/S.O.C.K.exe
