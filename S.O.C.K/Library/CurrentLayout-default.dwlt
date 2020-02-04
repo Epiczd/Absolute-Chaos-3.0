@@ -111,10 +111,10 @@ MonoBehaviour:
     y: 30
     width: 2332
     height: 1264
-  m_MinSize: {x: 679, y: 494}
-  m_MaxSize: {x: 14002, y: 14044}
+  m_MinSize: {x: 683, y: 494}
+  m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
-  controlID: 184
+  controlID: 96
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,10 +136,10 @@ MonoBehaviour:
     y: 0
     width: 2022
     height: 1264
-  m_MinSize: {x: 404, y: 494}
+  m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 185
+  controlID: 97
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,10 +161,10 @@ MonoBehaviour:
     y: 0
     width: 2022
     height: 839
-  m_MinSize: {x: 404, y: 222}
-  m_MaxSize: {x: 8004, y: 4022}
+  m_MinSize: {x: 406, y: 222}
+  m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 186
+  controlID: 98
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -184,8 +184,8 @@ MonoBehaviour:
     y: 0
     width: 495
     height: 839
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 222}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -266,8 +266,8 @@ MonoBehaviour:
     y: 0
     width: 310
     height: 1264
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 72}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -386,7 +386,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: aeebffffe2ebffffc4ecffffd0ecffff04eeffff0eeeffffbaf1ffff6ef6ffff40f9ffffe2faffffba400000
+      m_ExpandedIDs: c2b8fffff6b8ffffd8b9ffffe4b9fffff0b9fffffeb9ffff2ac1ffffe4c1ffff1cc2ffff1ec2ffff24c2ffff5ac3ffff64c3ffffe6c3ffff1ec4ffff20c4ffff26c4ffff5cc5ffff66c5ffffb0c6ffff3cc7ffff70c7ffff52c8ffff5ec8ffff6ac8ffff78c8ffffb4e4ffff36e5ffff6ae5ffff46e6ffff52e6ffff86e7ffff94e7ffffcee8ffffa0e9ffff16f2ffff38f5ffff34f8ffffe2faffff78390000503d0000923e0000d03e00006a410000ee41000038470000fe5e0000ca670000fe670000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -446,9 +446,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.174574, y: -11.868223, z: 101.52405}
+    m_Target: {x: 95.36405, y: -44.563774, z: 104.78852}
     speed: 2
-    m_Value: {x: -5.174574, y: -11.868223, z: 101.52405}
+    m_Value: {x: 95.36405, y: -44.563774, z: 104.78852}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -477,13 +477,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.024257328, y: -0.063840196, z: 0.0015532597, w: -0.99766773}
+    m_Target: {x: -0.1508929, y: -0.39354178, z: 0.065656185, w: -0.9044649}
     speed: 2
-    m_Value: {x: -0.02425724, y: -0.063839965, z: 0.0015532541, w: -0.99766415}
+    m_Value: {x: -0.15089205, y: -0.39353958, z: 0.06565582, w: -0.90445983}
   m_Size:
-    m_Target: 52.60442
+    m_Target: 186.45042
     speed: 2
-    m_Value: 52.60442
+    m_Value: 186.45042
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -612,20 +612,20 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Networking
+    - Assets/Scripts/U.I
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Networking
+  - Assets/Scripts/U.I
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/21millisorz/Documents/GitHub/Absolute-Chaos-2.0/S.O.C.K
+  m_LastProjectPath: /Users/21heiligmanns/Desktop/ADP 1/AbsoluteChaos/Absolute-Chaos-3.0/S.O.C.K
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 78370000
-    m_LastClickedID: 14200
-    m_ExpandedIDs: 00000000be3000002034000000ca9a3b
+    scrollPos: {x: 0, y: 10}
+    m_SelectedIDs: 64380000
+    m_LastClickedID: 14436
+    m_ExpandedIDs: 00000000c2300000e23100008632000006340000243400006234000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -653,7 +653,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000be30000020340000
+    m_ExpandedIDs: 00000000c230000024340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
