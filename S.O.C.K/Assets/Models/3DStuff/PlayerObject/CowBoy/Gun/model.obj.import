@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/model.obj-5cd2511f9d41d941940fbfa9b4f1800d.mesh"
+
+[deps]
+
+files=[ "res://.import/model.obj-5cd2511f9d41d941940fbfa9b4f1800d.mesh" ]
+
+source_file="res://3DStuff/PlayerObject/CowBoy/Gun/model.obj"
+dest_files=[ "res://.import/model.obj-5cd2511f9d41d941940fbfa9b4f1800d.mesh", "res://.import/model.obj-5cd2511f9d41d941940fbfa9b4f1800d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

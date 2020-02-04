@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/model.obj-6b45113ab86b6b0a48997ec8243a548d.mesh"
+
+[deps]
+
+files=[ "res://.import/model.obj-6b45113ab86b6b0a48997ec8243a548d.mesh" ]
+
+source_file="res://3DStuff/PlayerObject/Scientist/model.obj"
+dest_files=[ "res://.import/model.obj-6b45113ab86b6b0a48997ec8243a548d.mesh", "res://.import/model.obj-6b45113ab86b6b0a48997ec8243a548d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

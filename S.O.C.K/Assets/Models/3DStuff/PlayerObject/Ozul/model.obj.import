@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/model.obj-efd565ab20337a96267709d151daa780.mesh"
+
+[deps]
+
+files=[ "res://.import/model.obj-efd565ab20337a96267709d151daa780.mesh" ]
+
+source_file="res://3DStuff/PlayerObject/Ozul/model.obj"
+dest_files=[ "res://.import/model.obj-efd565ab20337a96267709d151daa780.mesh", "res://.import/model.obj-efd565ab20337a96267709d151daa780.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
