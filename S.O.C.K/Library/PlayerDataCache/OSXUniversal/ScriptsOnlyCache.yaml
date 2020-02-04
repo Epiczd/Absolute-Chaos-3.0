@@ -11,6 +11,7 @@ ScriptsOnlyBuild:
     - PlayerMovement
     - PlayerNameInput
     - QuitToDesktop
+    - Unpause
     PhotonUnityNetworking.dll:
     - Photon.Pun.ServerSettings
     Unity.TextMeshPro.dll:
@@ -159,6 +160,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11312}
     - Class: 114
       Script: {instanceID: 11616}
+    - Class: 114
+      Script: {instanceID: 26702}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1030,6 +1033,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Unpause
   platform: 2
   scenePathNames:
   - Assets/Scenes/Title.unity
