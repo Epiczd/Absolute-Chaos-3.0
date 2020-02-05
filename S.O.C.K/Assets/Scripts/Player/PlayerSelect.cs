@@ -8,37 +8,35 @@ public class PlayerSelect : MonoBehaviour
 {
     public string newLevel;
 
+    public Button player;
+
+    private void Start()
+    {
+        player.onClick.AddListener(taskOnClick);
+    }
     private void Update()
     {
-        OnMouseDown();
-        Debug.Log(PlayerCheck.cowboyActive);
+        Debug.Log(PlayerCheck.ozulActive);
     }
 
-    void OnMouseDown()
+    void taskOnClick()
     {
-        if (Input.GetMouseButtonDown(0))
+        switch (player.tag)
         {
-            switch (tag)
-            {
-                case "Ozul":
-                    if (gameObject.CompareTag("Ozul"))
-                    {
-                        PlayerCheck.ozulActive = true;
-                        PlayerCheck.cowboyActive = false;
-                        SceneManager.LoadScene(newLevel);
-                    }
-                    break;
-                case "Cowboy":
-                    if (gameObject.CompareTag("Cowboy"))
-                    {
-                        PlayerCheck.cowboyActive = true;
-                        PlayerCheck.ozulActive = false;
-                        SceneManager.LoadScene(newLevel);
-                    }
-                    break;
-                default:
-                    break;
-            }
+            case "Cowboy":
+                {
+                    PlayerCheck.ozulActive = false;
+                    PlayerCheck.cowboyActive = true;
+                    SceneManager.LoadScene(newLevel);
+                }
+                break;
+            case "Ozul":
+                {
+                    PlayerCheck.ozulActive = true;
+                    PlayerCheck.cowboyActive = false;
+                    SceneManager.LoadScene(newLevel);
+                }
+                break;
         }
     }
 }
