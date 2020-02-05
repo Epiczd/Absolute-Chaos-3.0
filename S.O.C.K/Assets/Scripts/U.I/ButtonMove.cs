@@ -8,7 +8,7 @@ public class ButtonMove : MonoBehaviour
 {
     public Button TaskButton;
     public string SceneName;
-   void Update(){
+   void Start(){
        TaskButton.onClick.AddListener(taskOnClick);
    }
    void taskOnClick(){
