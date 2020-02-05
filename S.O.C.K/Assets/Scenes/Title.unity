@@ -1210,7 +1210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TaskButton: {fileID: 1487331906}
-  SceneName: SampleScene
+  SceneName: Character Selection
 --- !u!114 &1487331906
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -4,27 +4,22 @@ using UnityEngine;
 
 public class GroundCheck : MonoBehaviour
 {
-    public GameObject player;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    //Checks if the player is on the ground or not
 
-    private void Update()
-    {
-        Debug.Log(PlayerMovement.isGrounded);
-    }
-
+    /* If the player is on the ground,
+     * isGrounded = true, and the player can jump/sprint
+     */
     void OnTriggerEnter(Collider collision)
     {
-
         if (collision.CompareTag("Ground"))
         {
             PlayerMovement.isGrounded = true;
         }
     }
 
+    /* If the player is NOT on the ground,
+     * isGrounded = false, and the player CANNOT jump/sprint
+     */
     void OnTriggerExit(Collider collision)
     {
         if (collision.CompareTag("Ground"))

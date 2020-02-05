@@ -4,17 +4,18 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    private float moveSpeed;
+    //Speed the player moves at
+    private float moveSpeed = 5f;
 
+    //Checks if the player is grounded
     public static bool isGrounded;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        moveSpeed = 5f;
-    }
-
-    // Update is called once per frame
+    /* The player uses WASD or the arrow keys to move.
+     * If the player presses A/leftarrow or D/right/arrow
+     * They will move on the x axis left or right.
+     * If the player pressed W/uparrow or S/downarrow
+     * They will move on the z axis forward or backward
+     */
     void Update()
     {
         Jump();
@@ -25,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
         transform.localPosition += forwardMovement * Time.deltaTime * moveSpeed;
     }
 
+    //If the player is grounded, and presses space, they will jump
     void Jump()
     {
         if(Input.GetButtonDown("Jump") && isGrounded == true)

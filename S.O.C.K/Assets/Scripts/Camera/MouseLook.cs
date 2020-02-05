@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Script is unfinished
 public class MouseLook : MonoBehaviour
 {
     public float sensitivity;

@@ -4,18 +4,23 @@ using UnityEngine;
 
 public class CameraCheck : MonoBehaviour
 {
+    //First person camera
     public GameObject firstPerson;
+    //Third person camera
     public GameObject thirdPerson;
 
+    //Boolean that determines wether the game is in first person or not
     private bool firstActive;
 
-    // Start is called before the first frame update
+    //On Start, the game is in first person
     void Start()
     {
         firstActive = true;
     }
 
-    // Update is called once per frame
+    /* If the player presses F5, the game will switch to first person.
+     * If the player presses F6, the game will switch to third person.
+     */
     void Update()
     {
         if(firstActive == true)

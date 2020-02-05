@@ -6,19 +6,22 @@ using UnityEngine.UI;
 
 public class PlayerSelect : MonoBehaviour
 {
+    //Level that loads when pressed
     public string newLevel;
 
+    //Determines which player is being pressed
     public Button player;
 
-    private void Start()
+    //Required for the button to work
+    void Start()
     {
         player.onClick.AddListener(taskOnClick);
     }
-    private void Update()
-    {
-        Debug.Log(PlayerCheck.ozulActive);
-    }
 
+    /* Depending on which button the player presses,
+     * it will load the corresponding character,
+     * and will load the newLevel
+     */
     void taskOnClick()
     {
         switch (player.tag)

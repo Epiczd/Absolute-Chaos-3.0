@@ -5,15 +5,10 @@ using UnityEngine.Audio;
 
 public class JumpSound : MonoBehaviour
 {
+    //Jump Sound Effect
     public AudioSource jump;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    //If the player jumps, they will hear the jump sound effect
     void Update()
     {
         if (Input.GetButton("Jump"))
