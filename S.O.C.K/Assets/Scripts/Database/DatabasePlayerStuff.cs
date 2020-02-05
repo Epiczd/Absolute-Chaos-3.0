@@ -21,12 +21,11 @@ public class DatabasePlayerStuff : MonoBehaviour
         dataManager.GettingUserStuff("SELECT*FROM PlayerDatabase");
     }
     void Update(){
-       
     }
     void TaskOnClick(){
         UserName = UserNameInput.text;
         UserPassword = UserPasswordInput.text;
-        if(UserName == usernameFromDb && UserPassword == userpaswordFromDb ){
+        if(UserName == usernameFromDb && UserPassword == userpaswordFromDb){
             LoggedIn = true;
             SceneManager.LoadScene("Title");
         }

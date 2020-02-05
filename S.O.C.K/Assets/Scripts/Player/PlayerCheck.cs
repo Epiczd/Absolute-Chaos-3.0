@@ -23,10 +23,4 @@ public class PlayerCheck : MonoBehaviour
             ozul.SetActive(false);
         }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
