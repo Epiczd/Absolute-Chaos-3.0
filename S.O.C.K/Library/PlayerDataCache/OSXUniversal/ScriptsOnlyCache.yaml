@@ -15,7 +15,10 @@ ScriptsOnlyBuild:
     - PlayerMovement
     - PlayerNameInput
     - QuitToDesktop
+    - ShopManager
     - Unpause
+    PhotonUnityNetworking.Editor.dll:
+    - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
     - Photon.Pun.ServerSettings
     Unity.TextMeshPro.dll:
@@ -98,6 +101,27 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/LoginWithDataBase.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 157
       Script: {instanceID: 0}
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -235,6 +259,55 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11320}
     - Class: 114
       Script: {instanceID: 11626}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Shop.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9722}
+    - Class: 114
+      Script: {instanceID: 9762}
+    - Class: 114
+      Script: {instanceID: 9902}
+    - Class: 114
+      Script: {instanceID: 9946}
+    - Class: 114
+      Script: {instanceID: 10366}
+    - Class: 114
+      Script: {instanceID: 10756}
+    - Class: 114
+      Script: {instanceID: 11250}
+    - Class: 114
+      Script: {instanceID: 11626}
+    - Class: 114
+      Script: {instanceID: 14116}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1073,10 +1146,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ab7b8594884d5dd1b14ef85c63dc8e43
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShopManager
   platform: 2
   scenePathNames:
   - Assets/Scenes/Title.unity
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/Settings.unity
   - Assets/Scenes/Login.unity
+  - Assets/Scenes/Shop.unity
+  - Assets/Scenes/LoginWithDataBase.unity
   playerPath: /Users/21heiligmanns/Desktop/ADP 1/AbsoluteChaos/Absolute-Chaos-3.0/S.O.C.K/Builds/Mac/S.O.C.K.app
