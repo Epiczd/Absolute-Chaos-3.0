@@ -2091,6 +2091,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ozul: {fileID: 1807162844}
   cowboy: {fileID: 1960536880}
+  exlore: {fileID: 1146707906}
+  hacker: {fileID: 2103182912}
+  scientist: {fileID: 119753536}
 --- !u!1 &637156909
 GameObject:
   m_ObjectHideFlags: 0

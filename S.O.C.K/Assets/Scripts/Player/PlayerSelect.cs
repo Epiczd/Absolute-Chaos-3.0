@@ -30,6 +30,9 @@ public class PlayerSelect : MonoBehaviour
                 {
                     PlayerCheck.ozulActive = false;
                     PlayerCheck.cowboyActive = true;
+                    PlayerCheck.exloreActive = false;
+                    PlayerCheck.hackerActive = false;
+                    PlayerCheck.scientistActive = false;
                     SceneManager.LoadScene(newLevel);
                 }
                 break;
@@ -37,6 +40,39 @@ public class PlayerSelect : MonoBehaviour
                 {
                     PlayerCheck.ozulActive = true;
                     PlayerCheck.cowboyActive = false;
+                    PlayerCheck.exloreActive = false;
+                    PlayerCheck.hackerActive = false;
+                    PlayerCheck.scientistActive = false;
+                    SceneManager.LoadScene(newLevel);
+                }
+                break;
+            case "Exlore":
+                {
+                    PlayerCheck.exloreActive = true;
+                    PlayerCheck.ozulActive = false;
+                    PlayerCheck.cowboyActive = false;
+                    PlayerCheck.hackerActive = false;
+                    PlayerCheck.scientistActive = false;
+                    SceneManager.LoadScene(newLevel);
+                }
+                break;
+            case "Hacker":
+                {
+                    PlayerCheck.hackerActive = true;
+                    PlayerCheck.exloreActive = false;
+                    PlayerCheck.ozulActive = false;
+                    PlayerCheck.cowboyActive = false;
+                    PlayerCheck.scientistActive = false;
+                    SceneManager.LoadScene(newLevel);
+                }
+                break;
+            case "Scientist":
+                {
+                    PlayerCheck.scientistActive = true;
+                    PlayerCheck.exloreActive = false;
+                    PlayerCheck.ozulActive = false;
+                    PlayerCheck.cowboyActive = false;
+                    PlayerCheck.hackerActive = false;
                     SceneManager.LoadScene(newLevel);
                 }
                 break;
