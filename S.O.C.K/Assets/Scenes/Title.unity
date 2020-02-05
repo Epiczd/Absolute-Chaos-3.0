@@ -1129,6 +1129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8e4e86001abb4241bbdf3daf2bd1f43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TaskButton: {fileID: 1487331906}
   SceneName: SampleScene
 --- !u!61 &1487331905
 BoxCollider2D:
@@ -1288,6 +1289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8e4e86001abb4241bbdf3daf2bd1f43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TaskButton: {fileID: 1724327443}
   SceneName: Login
 --- !u!114 &1724327443
 MonoBehaviour:
@@ -1447,6 +1449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8e4e86001abb4241bbdf3daf2bd1f43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TaskButton: {fileID: 1738187321}
   SceneName: Settings
 --- !u!114 &1738187321
 MonoBehaviour:

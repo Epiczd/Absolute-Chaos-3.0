@@ -2,12 +2,15 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - ButtonMove
+    - CameraCheck
     - FPSButton
     - FPSCounter
+    - FPSToggle
     - Fullscreen
     - GroundCheck
     - JumpSound
     - MainMenu
+    - MouseLook
     - PauseMenu
     - PlayerMovement
     - PlayerNameInput
@@ -63,25 +66,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9902}
     - Class: 114
-      Script: {instanceID: 9944}
+      Script: {instanceID: 9946}
     - Class: 114
-      Script: {instanceID: 10104}
+      Script: {instanceID: 10106}
     - Class: 114
-      Script: {instanceID: 10364}
+      Script: {instanceID: 10366}
     - Class: 114
-      Script: {instanceID: 10752}
+      Script: {instanceID: 10756}
     - Class: 114
-      Script: {instanceID: 10824}
+      Script: {instanceID: 10828}
     - Class: 114
-      Script: {instanceID: 10956}
+      Script: {instanceID: 10960}
     - Class: 114
-      Script: {instanceID: 10984}
+      Script: {instanceID: 10988}
     - Class: 114
-      Script: {instanceID: 11182}
+      Script: {instanceID: 11186}
     - Class: 114
-      Script: {instanceID: 11246}
+      Script: {instanceID: 11250}
     - Class: 114
-      Script: {instanceID: 11620}
+      Script: {instanceID: 11626}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -142,27 +145,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9902}
     - Class: 114
-      Script: {instanceID: 9944}
+      Script: {instanceID: 9904}
     - Class: 114
-      Script: {instanceID: 10360}
+      Script: {instanceID: 9946}
     - Class: 114
-      Script: {instanceID: 10364}
+      Script: {instanceID: 10362}
     - Class: 114
-      Script: {instanceID: 10466}
+      Script: {instanceID: 10366}
     - Class: 114
-      Script: {instanceID: 10616}
+      Script: {instanceID: 10468}
     - Class: 114
-      Script: {instanceID: 10714}
+      Script: {instanceID: 10618}
     - Class: 114
-      Script: {instanceID: 10752}
+      Script: {instanceID: 10678}
     - Class: 114
-      Script: {instanceID: 10938}
+      Script: {instanceID: 10718}
     - Class: 114
-      Script: {instanceID: 11246}
+      Script: {instanceID: 10756}
     - Class: 114
-      Script: {instanceID: 11316}
+      Script: {instanceID: 10942}
     - Class: 114
-      Script: {instanceID: 11620}
+      Script: {instanceID: 11250}
+    - Class: 114
+      Script: {instanceID: 11320}
+    - Class: 114
+      Script: {instanceID: 11464}
+    - Class: 114
+      Script: {instanceID: 11626}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -213,19 +222,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9902}
     - Class: 114
-      Script: {instanceID: 9944}
+      Script: {instanceID: 9946}
     - Class: 114
-      Script: {instanceID: 10364}
+      Script: {instanceID: 10366}
     - Class: 114
-      Script: {instanceID: 10752}
+      Script: {instanceID: 10756}
     - Class: 114
-      Script: {instanceID: 10774}
+      Script: {instanceID: 10778}
     - Class: 114
-      Script: {instanceID: 11246}
+      Script: {instanceID: 11250}
     - Class: 114
-      Script: {instanceID: 11316}
+      Script: {instanceID: 11320}
     - Class: 114
-      Script: {instanceID: 11620}
+      Script: {instanceID: 11626}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -274,31 +283,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9902}
     - Class: 114
-      Script: {instanceID: 9944}
+      Script: {instanceID: 9946}
     - Class: 114
-      Script: {instanceID: 10364}
+      Script: {instanceID: 10366}
     - Class: 114
-      Script: {instanceID: 10388}
+      Script: {instanceID: 10390}
     - Class: 114
-      Script: {instanceID: 10698}
+      Script: {instanceID: 10702}
     - Class: 114
-      Script: {instanceID: 10752}
+      Script: {instanceID: 10756}
     - Class: 114
-      Script: {instanceID: 10800}
+      Script: {instanceID: 10804}
     - Class: 114
-      Script: {instanceID: 10984}
+      Script: {instanceID: 10988}
     - Class: 114
-      Script: {instanceID: 10998}
+      Script: {instanceID: 11002}
     - Class: 114
-      Script: {instanceID: 11182}
+      Script: {instanceID: 11186}
     - Class: 114
-      Script: {instanceID: 11246}
+      Script: {instanceID: 11250}
     - Class: 114
-      Script: {instanceID: 11316}
+      Script: {instanceID: 11320}
     - Class: 114
-      Script: {instanceID: 11408}
+      Script: {instanceID: 11412}
     - Class: 114
-      Script: {instanceID: 11620}
+      Script: {instanceID: 11626}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -434,6 +443,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FPSToggle
   - hash:
       serializedVersion: 2
       Hash: 499fd23433e68e265d153aa6b95d0047
@@ -718,6 +733,12 @@ ScriptsOnlyBuild:
     className: RemoteTestResultSender
   - hash:
       serializedVersion: 2
+      Hash: 423c53760926b77ffdfd938e166870c2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraCheck
+  - hash:
+      serializedVersion: 2
       Hash: 4fdfe530ffd5f502ce72adb104fc64e2
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
@@ -940,6 +961,12 @@ ScriptsOnlyBuild:
     className: OnEscapeQuit
   - hash:
       serializedVersion: 2
+      Hash: dc38c27f90ed9f5c03f2d6338eb092f5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MouseLook
+  - hash:
+      serializedVersion: 2
       Hash: df434544c9f7b33d1cc7e635b180d279
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1052,4 +1079,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/Settings.unity
   - Assets/Scenes/Login.unity
-  playerPath: C:/Users/epicz/Documents/GitHub/Absolute-Chaos-3.0/S.O.C.K/Builds/Windows/S.O.C.K.exe
+  playerPath: /Users/21heiligmanns/Desktop/ADP 1/AbsoluteChaos/Absolute-Chaos-3.0/S.O.C.K/Builds/Mac/S.O.C.K.app/S.O.C.K.exe
