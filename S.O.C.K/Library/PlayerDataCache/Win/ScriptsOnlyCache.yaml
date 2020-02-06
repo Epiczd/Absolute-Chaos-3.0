@@ -32,7 +32,6 @@ ScriptsOnlyBuild:
     - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -1273,10 +1272,27 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Scenes/Title.unity
+<<<<<<< HEAD
   - Assets/Scenes/Shop.unity
+||||||| merged common ancestors
+  - Assets/Scenes/SampleScene.unity
+=======
+  - Assets/Scenes/Character Selection.unity
+  - Assets/Scenes/Login.unity
+  - Assets/Scenes/LoginWithDataBase.unity
+  - Assets/Scenes/SampleScene.unity
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
   - Assets/Scenes/Settings.unity
+<<<<<<< HEAD
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/LoginWithDataBase.unity
   - Assets/Scenes/Login.unity
   - Assets/Scenes/Character Selection.unity
   playerPath: /Users/21heiligmanns/Desktop/ADP 1/AbsoluteChaos/Absolute-Chaos-3.0/S.O.C.K/Builds/Mac/S.O.C.K.app/S.O.C.K.exe
+||||||| merged common ancestors
+  - Assets/Scenes/Login.unity
+  playerPath: /Users/21heiligmanns/Desktop/ADP 1/AbsoluteChaos/Absolute-Chaos-3.0/S.O.C.K/Builds/Mac/S.O.C.K.app/S.O.C.K.exe
+=======
+  - Assets/Scenes/Shop.unity
+  playerPath: /Users/21millisorz/Documents/GitHub/Absolute-Chaos-3.0/S.O.C.K/Builds/Mac/SOCK/SOCK/SOCK/S.O.C.K.exe
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61

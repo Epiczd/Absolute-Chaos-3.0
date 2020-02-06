@@ -12,8 +12,13 @@ ScriptsOnlyBuild:
     - JumpSound
     - LoginButton
     - MainMenu
+<<<<<<< HEAD
     - MoreDatabaseUser
     - MoreTables
+||||||| merged common ancestors
+=======
+    - MoreDatabaseUser
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - MouseLook
     - PauseMenu
     - PlayerCheck
@@ -174,6 +179,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
+<<<<<<< HEAD
     - Class: 114
       Script: {instanceID: 9722}
     - Class: 114
@@ -199,6 +205,33 @@ ScriptsOnlyBuild:
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+||||||| merged common ancestors
+    - Class: 108
+=======
+    - Class: 114
+      Script: {instanceID: 9722}
+    - Class: 114
+      Script: {instanceID: 9904}
+    - Class: 114
+      Script: {instanceID: 9948}
+    - Class: 114
+      Script: {instanceID: 10368}
+    - Class: 114
+      Script: {instanceID: 10586}
+    - Class: 114
+      Script: {instanceID: 10762}
+    - Class: 114
+      Script: {instanceID: 10966}
+    - Class: 114
+      Script: {instanceID: 11256}
+    - Class: 114
+      Script: {instanceID: 11608}
+    - Class: 114
+      Script: {instanceID: 11638}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -256,35 +289,117 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9904}
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 9906}
+    - Class: 114
+      Script: {instanceID: 9948}
+||||||| merged common ancestors
+      Script: {instanceID: 9946}
+=======
       Script: {instanceID: 9906}
     - Class: 114
       Script: {instanceID: 9948}
     - Class: 114
       Script: {instanceID: 10364}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 10364}
+||||||| merged common ancestors
+      Script: {instanceID: 10362}
+=======
       Script: {instanceID: 10368}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 10368}
+||||||| merged common ancestors
+      Script: {instanceID: 10366}
+=======
       Script: {instanceID: 10470}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 10470}
+||||||| merged common ancestors
+      Script: {instanceID: 10468}
+=======
       Script: {instanceID: 10622}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 10622}
+||||||| merged common ancestors
+      Script: {instanceID: 10618}
+=======
       Script: {instanceID: 10682}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 10682}
+||||||| merged common ancestors
+      Script: {instanceID: 10678}
+=======
       Script: {instanceID: 10722}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 10722}
+||||||| merged common ancestors
+      Script: {instanceID: 10718}
+=======
       Script: {instanceID: 10762}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 10762}
+||||||| merged common ancestors
+      Script: {instanceID: 10756}
+=======
       Script: {instanceID: 10948}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 10948}
+||||||| merged common ancestors
+      Script: {instanceID: 10942}
+=======
       Script: {instanceID: 11256}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 11256}
+||||||| merged common ancestors
+      Script: {instanceID: 11250}
+=======
       Script: {instanceID: 11326}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 11326}
+||||||| merged common ancestors
+      Script: {instanceID: 11320}
+=======
       Script: {instanceID: 11472}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 11472}
+||||||| merged common ancestors
+      Script: {instanceID: 11464}
+=======
+      Script: {instanceID: 11540}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
+    - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 11540}
     - Class: 114
       Script: {instanceID: 11638}
+||||||| merged common ancestors
+      Script: {instanceID: 11626}
+=======
+      Script: {instanceID: 11638}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -443,35 +558,121 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9762}
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 9784}
+||||||| merged common ancestors
+      Script: {instanceID: 9902}
+=======
       Script: {instanceID: 9784}
     - Class: 114
       Script: {instanceID: 9904}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 9904}
+||||||| merged common ancestors
+      Script: {instanceID: 9946}
+=======
       Script: {instanceID: 9948}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 9948}
+||||||| merged common ancestors
+      Script: {instanceID: 10366}
+=======
       Script: {instanceID: 10368}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 10368}
+||||||| merged common ancestors
+      Script: {instanceID: 10390}
+=======
       Script: {instanceID: 10392}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 10392}
+||||||| merged common ancestors
+      Script: {instanceID: 10702}
+=======
       Script: {instanceID: 10706}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 10706}
+||||||| merged common ancestors
+      Script: {instanceID: 10756}
+=======
       Script: {instanceID: 10762}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 10762}
+||||||| merged common ancestors
+      Script: {instanceID: 10804}
+=======
       Script: {instanceID: 10810}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 10810}
+||||||| merged common ancestors
+      Script: {instanceID: 10988}
+=======
       Script: {instanceID: 10994}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 10994}
+||||||| merged common ancestors
+      Script: {instanceID: 11002}
+=======
       Script: {instanceID: 11008}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 11008}
+||||||| merged common ancestors
+      Script: {instanceID: 11186}
+=======
       Script: {instanceID: 11192}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 11192}
+||||||| merged common ancestors
+      Script: {instanceID: 11250}
+=======
       Script: {instanceID: 11256}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 11256}
+||||||| merged common ancestors
+      Script: {instanceID: 11320}
+=======
       Script: {instanceID: 11326}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 11326}
+||||||| merged common ancestors
+      Script: {instanceID: 11412}
+=======
+      Script: {instanceID: 11420}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
+    - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 11420}
     - Class: 114
       Script: {instanceID: 11638}
+||||||| merged common ancestors
+      Script: {instanceID: 11626}
+=======
+      Script: {instanceID: 11638}
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1273,19 +1474,48 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+<<<<<<< HEAD
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MoreTables
+||||||| merged common ancestors
+  - hash:
+      serializedVersion: 2
+      Hash: ab7b8594884d5dd1b14ef85c63dc8e43
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShopManager
+=======
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
   platform: 2
   scenePathNames:
   - Assets/Scenes/Title.unity
+<<<<<<< HEAD
+||||||| merged common ancestors
+  - Assets/Scenes/SampleScene.unity
+  - Assets/Scenes/Settings.unity
+  - Assets/Scenes/Login.unity
+=======
+  - Assets/Scenes/Character Selection.unity
+  - Assets/Scenes/Login.unity
+  - Assets/Scenes/LoginWithDataBase.unity
+  - Assets/Scenes/SampleScene.unity
+  - Assets/Scenes/Settings.unity
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
   - Assets/Scenes/Shop.unity
+<<<<<<< HEAD
   - Assets/Scenes/Settings.unity
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/LoginWithDataBase.unity
   - Assets/Scenes/Login.unity
   - Assets/Scenes/Character Selection.unity
   playerPath: /Users/21heiligmanns/Desktop/ADP 1/AbsoluteChaos/Absolute-Chaos-3.0/S.O.C.K/Builds/Mac/S.O.C.K.app
+||||||| merged common ancestors
+  - Assets/Scenes/LoginWithDataBase.unity
+  playerPath: /Users/21heiligmanns/Desktop/ADP 1/AbsoluteChaos/Absolute-Chaos-3.0/S.O.C.K/Builds/Mac/S.O.C.K.app
+=======
+  playerPath: /Users/21millisorz/Documents/GitHub/Absolute-Chaos-3.0/S.O.C.K/SOCK.app
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61

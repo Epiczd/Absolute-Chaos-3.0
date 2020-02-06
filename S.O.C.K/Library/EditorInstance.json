@@ -1,5 +1,11 @@
 {
+<<<<<<< HEAD
 	"process_id" : 627,
+||||||| merged common ancestors
+	"process_id" : 11396,
+=======
+	"process_id" : 749,
+>>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
 	"version" : "2019.2.16f1",
 	"app_path" : "/Applications/Unity/Unity.app",
 	"app_contents_path" : "/Applications/Unity/Unity.app/Contents"
