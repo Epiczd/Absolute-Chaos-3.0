@@ -4,13 +4,8 @@ using UnityEngine;
 
 public class FPSToggle : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
+    //Pressing F7 will either toggle the FPSCounter on or off
     void Update()
     {
         if(Input.GetKey(KeyCode.F7) && FPSButton.fpsOn == false)

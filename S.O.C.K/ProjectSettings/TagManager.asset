@@ -7,6 +7,9 @@ TagManager:
   - Ground
   - Cowboy
   - Ozul
+  - Exlore
+  - Hacker
+  - Scientist
   layers:
   - Default
   - TransparentFX
