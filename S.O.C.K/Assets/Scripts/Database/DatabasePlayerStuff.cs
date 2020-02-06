@@ -16,18 +16,29 @@ public class DatabasePlayerStuff : MonoBehaviour
     public InputField UserPasswordInput;
     public Button LoginButton;
     public static bool LoggedIn;
+    public Text WrongPassword;
     void Start(){
         LoginButton.onClick.AddListener(TaskOnClick);
-        dataManager.GettingUserStuff("SELECT*FROM PlayerDatabase");
     }
     void Update(){
     }
     void TaskOnClick(){
         UserName = UserNameInput.text;
         UserPassword = UserPasswordInput.text;
+        string insertThis = string.Format("SELECT*FROM PlayerDatabase WHERE Username = '{0}'", UserName);
+        dataManager.GettingUserStuff(insertThis);
         if(UserName == usernameFromDb && UserPassword == userpaswordFromDb){
             LoggedIn = true;
             SceneManager.LoadScene("Title");
+        }
+        if (UserName == usernameFromDb && UserPassword != userpaswordFromDb)
+        {
+            UserPasswordInput.Select();
+            UserNameInput.text = "";
+            WrongPassword.enabled = true;
+            UserPasswordInput.Select();
+            UserPasswordInput.text = "";
+
         }
     }
 }

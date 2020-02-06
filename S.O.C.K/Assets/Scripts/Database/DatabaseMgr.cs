@@ -83,4 +83,38 @@ public class Dbmanager{
             }
         }
     }
+    public void LookingIntForData(string commandText,int ReaderIndex, int IntVar )
+    {
+        using(SqliteConnection dbCon = new SqliteConnection(connectionString))
+        {
+            dbCon.Open();
+            using(SqliteCommand dbCmd = new SqliteCommand(commandText, dbCon))
+            {
+                using(SqliteDataReader dbReader = dbCmd.ExecuteReader())
+                {
+                    while (dbReader.Read())
+                    {
+                        IntVar = Convert.ToInt32(dbReader[ReaderIndex]);
+                    }
+                }
+            }
+        }
+    }
+    public void LookingForStringData(string commandText, int readerIndex, string StringVar)
+    {
+        using(SqliteConnection dbCon = new SqliteConnection(connectionString))
+        {
+            dbCon.Open();
+            using(SqliteCommand dbCmd = new SqliteCommand(commandText, dbCon))
+            {
+                using(SqliteDataReader dbReader = dbCmd.ExecuteReader())
+                {
+                    while (dbReader.Read())
+                    {
+                        StringVar = dbReader[readerIndex].ToString();
+                    }
+                }
+            }
+        }
+    }
 }
