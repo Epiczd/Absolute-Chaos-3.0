@@ -6,8 +6,8 @@ public class MoreTables : MonoBehaviour
 {
    Dbmanager dataManager = Dbmanager.Instance;
    void Start(){
-       dataManager.DataCheck("SELECT*FROM PlayerDatabase");
-       if(dataManager.isDataHere == false){
+       dataManager.DataCheck("SELECT name From sqlite_master WHERE name ='PlayerDatabase'");
+       if(dataManager.isDataHere != true){
            dataManager.normalDbComand("CREATE TABLE PlayerDatabase(Username TEXT, UserPassword TEXT)");
        }
    }

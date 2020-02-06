@@ -25,10 +25,10 @@ public class UserData : MonoBehaviour
 
         if (dataManager.isDataHere != false) { 
         dataManager.normalDbComand("CREATE TABLE AllPlayerData(Username TEXT, UserCredits INT, PlayTime INT)");
-            dataManager.GettingUserStuff("SELECT*FROM AllPlayerData");
+            
         }
-           
-            if(UserName.text != DatabasePlayerStuff.usernameFromDb)
+        dataManager.GettingUserStuff("SELECT*FROM AllPlayerData");
+        if (UserName.text != DatabasePlayerStuff.usernameFromDb)
             {
                 string insertThis = string.Format("INSERT INTO AllPLayerData(Username,UserCredits,PlayTime) VALUES('{0}', '0','0')", UserName.text);
                 dataManager.normalDbComand(insertThis);

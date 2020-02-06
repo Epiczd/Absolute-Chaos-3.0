@@ -9,49 +9,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Title.unity
     guid: 5cfe287b2a2104409ad18f50b1d50f13
   - enabled: 1
-<<<<<<< HEAD
     path: Assets/Scenes/Shop.unity
     guid: 11273a2a64490406b97dafa777c7d2f6
-||||||| merged common ancestors
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-=======
-    path: Assets/Scenes/Character Selection.unity
-    guid: 68ceaa4cafd7742b0b44f7fac0d2b44c
-  - enabled: 1
-    path: Assets/Scenes/Login.unity
-    guid: 2d7d28cda059ce24ea837e8763817098
-  - enabled: 1
-    path: Assets/Scenes/LoginWithDataBase.unity
-    guid: cdd3a9676e82e4da0898064d12d8901a
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
->>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
   - enabled: 1
     path: Assets/Scenes/Settings.unity
     guid: 63cbd2893cbd9452a9b47ec8b60cdb0d
   - enabled: 1
-<<<<<<< HEAD
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Login.unity
+    guid: 2d7d28cda059ce24ea837e8763817098
   - enabled: 1
     path: Assets/Scenes/LoginWithDataBase.unity
     guid: cdd3a9676e82e4da0898064d12d8901a
   - enabled: 1
-    path: Assets/Scenes/Login.unity
-    guid: 2d7d28cda059ce24ea837e8763817098
-  - enabled: 1
     path: Assets/Scenes/Character Selection.unity
     guid: 68ceaa4cafd7742b0b44f7fac0d2b44c
   m_configObjects: {}
-||||||| merged common ancestors
-    path: Assets/Scenes/Login.unity
-    guid: 2d7d28cda059ce24ea837e8763817098
-  - enabled: 1
-
-=======
-    path: Assets/Scenes/Shop.unity
-    guid: 11273a2a64490406b97dafa777c7d2f6
-  m_configObjects: {}
->>>>>>> fe21581eef4d52ee53e72a3e522ecdd9210bfb61
