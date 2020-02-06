@@ -15,7 +15,8 @@ public class MoreDatabaseUser : MonoBehaviour
    }
    void TaskOnClick(){
         if(UserName.text != DatabasePlayerStuff.usernameFromDb && Password.text != DatabasePlayerStuff.userpaswordFromDb){
-            string insertThis = string.Format($"INSERT INTO PlayerDatabase(Username, UserPassword) VALUES({0},{1})",UserName.text, Password.text);
+           //There Should Be no $ In front Of This String and Leave The Single Quotes
+            string insertThis = string.Format("INSERT INTO PlayerDatabase(Username, UserPassword) VALUES('{0}','{1}')",UserName.text, Password.text);
             dataManager.normalDbComand(insertThis);
             DatabasePlayerStuff.LoggedIn = true;
        }
