@@ -10,12 +10,11 @@ public class Gun : MonoBehaviour
     //Ammount of time in between each shot
     private float invincibilityTime = 0f;
 
-    void Start()
-    {
-        
-    }
-
-    
+    /* If the player presses the left mouse button,
+     * they will fire a shot, later it will fire a bullet,
+     * but for now it deals one damage, and adds some invicibility time,
+     * so that way the enemy doesn't die instantly
+     */
     void Update()
     {
         Debug.Log(EnemyHealth.enemyH);
