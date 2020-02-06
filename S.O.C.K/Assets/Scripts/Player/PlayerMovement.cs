@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     //Speed the player moves at
-    private float moveSpeed = 5f;
+    private float moveSpeed = 20f;
 
     //Checks if the player is grounded
     public static bool isGrounded;

@@ -25,7 +25,7 @@ public class Gun : MonoBehaviour
         }
         else if (invincibilityTime > 0f)
         {
-            invincibilityTime -= Time.deltaTime * 1.5f;
+            invincibilityTime -= Time.deltaTime * 3f;
         }
     }
 }
