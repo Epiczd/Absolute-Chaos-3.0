@@ -1,14 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class QuitToDesktop : MonoBehaviour
 {
-    private void OnMouseDown()
+    public Button Quit;
+   void Start()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            Application.Quit();
-        }
+        Quit.onClick.AddListener(TaskOnClick);
+    }
+    void TaskOnClick()
+    {
+        Application.Quit();
     }
 }
