@@ -5,21 +5,26 @@ using UnityEngine;
 //Script is unfinished
 public class MouseLook : MonoBehaviour
 {
-    public float sensitivity;
+    [SerializeField] private float sensitivity = 10f;
+    private float xRotation = 0f;
+    [SerializeField] private Transform player;
 
-    // Start is called before the first frame update
+    //Locks the mouse cursor on start
     void Start()
     {
-        
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 look = new Vector3(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"), 0f);
-        transform.position += look * Time.deltaTime * sensitivity;
+        float mouseX = Input.GetAxis("Mouse X") * sensitivity * Time.fixedDeltaTime;
+        float mouseY = Input.GetAxis("Mouse Y") * sensitivity * Time.fixedDeltaTime;
 
-        Vector3 lookAround = new Vector3(0f, 0f, Input.GetAxis("Mouse X"));
-        transform.localScale += lookAround * Time.deltaTime * sensitivity;
+        xRotation -= mouseY;
+        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+
+        transform.localRotation = Quaternion.Euler(xRotation, 0, 0);
+        player.Rotate(Vector3.up * mouseX);
     }
 }

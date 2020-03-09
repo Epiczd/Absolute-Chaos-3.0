@@ -19,11 +19,25 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         Jump();
-        Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
-        transform.position += movement * Time.deltaTime * moveSpeed;
+        UpdateMovement();
 
-        Vector3 forwardMovement = new Vector3(0f, 0f, Input.GetAxis("Vertical"));
-        transform.localPosition += forwardMovement * Time.deltaTime * moveSpeed;
+        if(Input.GetButton("Sprint") && isGrounded == true)
+        {
+            moveSpeed = 40f;
+        }
+        else
+        {
+            moveSpeed = 20f;
+        }
+    }
+
+    void UpdateMovement()
+    {
+        float x = Input.GetAxis("Horizontal");
+        float z = Input.GetAxis("Vertical");
+
+        transform.Translate(Vector3.forward * Time.deltaTime * moveSpeed * -z);
+        transform.Translate(Vector3.right * Time.deltaTime * moveSpeed * -x);
     }
 
     //If the player is grounded, and presses space, they will jump
